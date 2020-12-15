@@ -1,6 +1,4 @@
 ---
-title: "My First Post"
+title: "JavaScript"
 date: 2020-12-15T03:18:36+07:00
 ---
-gfgfgfgfgfg
-

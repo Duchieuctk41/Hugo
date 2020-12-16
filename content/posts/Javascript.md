@@ -3,78 +3,78 @@ title: "JavaScript"
 date: 2020-12-15T03:18:36+07:00
 ---
 
-#Javascript là gì ? [Read](..javascript/content/)
+#1 Javascript là gì ? [Read](..javascript/content/)
 
 ---
 
-#Các kiểu dữ liệu trong Javascript ?
+#2 Các kiểu dữ liệu trong Javascript ?
 
 ---
 
-#Sự khác biệt giữa null, underfined ?
+#3 Sự khác biệt giữa null, underfined ?
 
 ---
 
-#Phân biệt var, let, const ?
+#4 Phân biệt var, let, const ?
 
 ---
 
-#Scope là gì? Closure ?
+#5 Scope là gì? Closure ?
 
 ---
 
-#Bất đồng bộ là gì ? cơ chế xử lí của JS ?
+#6 Bất đồng bộ là gì ? cơ chế xử lí của JS ?
 
 ---
 
-#Event loop là gì, Call stack là gì hoạt động như thế nào ?
+#7 Event loop là gì, Call stack là gì hoạt động như thế nào ?
 
 ---
 
-#So sánh các cách xử lí của JS: callback, promise, async, await…
+#8 So sánh các cách xử lí của JS: callback, promise, async, await…
 
 ---
 
-#Các feature trong ES6 là gì ?
+#9 Các feature trong ES6 là gì ?
 
 ---
 
-#Arrow function ?
+#10 Arrow function ?
 
 ---
 
-#spread ?
+#11 spread ?
 
 ---
 
-#set ?
+#12 set ?
 
 ---
 
-#destructring ?
+#13 destructring ?
 
 ---
 
-#map, filter, reduce (map, filter, reduce khác gì nhau) ?
+#14 map, filter, reduce (map, filter, reduce khác gì nhau) ?
 
 ---
 
-#Promise ?
+#15 Promise ?
 
 ---
 
-#String interpolation ?
+#16 String interpolation ?
 
 ---
 
-#Map, Set, Iterator, For-of, Class… ?
+#17 Map, Set, Iterator, For-of, Class… ?
 
 ---
 
-#Từ khóa “this”, context ?
+#18 Từ khóa “this”, context ?
 
 ---
 
-#Object, class trong OOP ?
+#19 Object, class trong OOP ?
 
 ---

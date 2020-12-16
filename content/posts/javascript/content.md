@@ -1,6 +1,6 @@
 ### Có 9 kiểu dữ liệu trong Javascript:
 
-6 kiểu Dữ liệu sơ khai (primitive), có thể kiểm tra với toán tử typeof:
+##### 6 kiểu Dữ liệu sơ khai (primitive), có thể kiểm tra với toán tử typeof:
 
 Kiểu undefined 
 

@@ -54,5 +54,18 @@ Event Loop có một công việc đơn giản: theo dõi Call Stack và Callbac
 JavaScript là ngôn ngữ lập trình single-threaded.
 Call stack là 1 cấu trúc dữ liệu, lưu các lệnh sẽ được thực thi. Vào sau thì ra trước.
 
+### So sánh các cách xử lí của JS: callback, promise, async, await…
+
+#### Callback (ES5)
+Callback hiểu đơn giản là bạn truyền một hàm B vào hàm A dưới dạng 1 tham số, một lúc nào đó thì hàm A sẽ gọi hàm B để chạy. nhược điểm tạo ra callback hell.
+
+#### Promise (ES6)
+Là "lời hứa" đại diện cho giá trị chưa tồn tại và giá trị đó sẽ được trả về vào một thời gian trong tương lai.
+
+#### Async / Await (ES7):
+ Async được dùng để khai báo một hàm bất đồng bộ. Các hàm bất đồng bộ sẽ luôn trả về một giá trị. Việc sử dụng async chỉ đơn giản là ngụ ý rằng một lời hứa sẽ được trả lại và nếu một lời hứa không được trả lại, JavaScript sẽ tự động kết thúc nó.
+ 
+Await làm cho JavaScript đợi cho đến khi promise trả về kết quả. 
+
 
 

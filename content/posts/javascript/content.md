@@ -34,5 +34,11 @@ Thay thế cho var, scope là block scope.
 ### const: 
 Khai báo hằng.
 
+### Scope
+Là phạm vi truy cập: global, local
+
+ ### Closure
+Lexical global: hàm trong hàm, hàm con có quyền truy cập đến phạm vi biến của hàm cha.
+Khái niệm closure bao đóng. làm cho scope trong không thể tiếp cận được public scope. Chỉ gọi function sẽ không thực hiện gì bởi nó trả về kết quả là tham chiếu tới function.
 
 

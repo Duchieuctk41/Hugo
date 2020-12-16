@@ -20,3 +20,9 @@ Object: typeof instance === "object".
 
 Phi dữ liệu Function instance === "function". 
 
+### null : 
+trả về object, và rỗng.
+### underfined : 
+giá trị không xác định
+
+

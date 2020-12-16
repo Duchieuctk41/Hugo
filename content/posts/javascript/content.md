@@ -46,5 +46,13 @@ Khái niệm closure bao đóng. làm cho scope trong không thể tiếp cận 
 ### Bất đồng bộ là gì?
 Là xử lý công việc không theo tuần tự, trong thời gian chờ làm việc này thì nhảy qua việc khác.
 
+### Event loop là gì, Call stack là gì hoạt động như thế nào ?
+Event Loop là cơ chế giúp Javascript có thể thực hiện nhiều thao tác cùng một lúc (concurrent model). 
+
+Event Loop có một công việc đơn giản: theo dõi Call Stack và Callback Queue (hàng đợi các hàm callback). Nếu Call Stack đang trống, nó sẽ lấy event đầu tiên từ trong hàng đợi ra và đẩy nó vào trong Call Stack - tức là thực thi nó.
+
+JavaScript là ngôn ngữ lập trình single-threaded.
+Call stack là 1 cấu trúc dữ liệu, lưu các lệnh sẽ được thực thi. Vào sau thì ra trước.
+
 
 

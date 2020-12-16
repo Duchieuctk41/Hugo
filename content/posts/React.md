@@ -3,46 +3,46 @@ title: "Reactjs"
 date: 2020-12-15T03:18:36+07:00
 ---
 
-#Read DOM, Virtual DOM ?
+#1 Read DOM, Virtual DOM ?
 
 ---
 
-#LifeCycle ?
+#2 LifeCycle ?
 
 ---
 
-#Data binding là gì ?
+#3 Data binding là gì ?
 
 ---
 
-#GET, POST là gì, khác nhau như thế nào? Giả sử muốn upload một file thì làm như thế nào ?
+#4 GET, POST là gì, khác nhau như thế nào? Giả sử muốn upload một file thì làm như thế nào ?
 
 ---
 
-#Hook ? UseEffect ?
+#5 Hook ? UseEffect ?
 
 ---
 
-#Prop ? State ?
+#6 Prop ? State ?
 
 ---
 
-#Graph ?
+#7 Graph ?
 
 ---
 
-#Phân biệt stateless vs statefull ?
+#8 Phân biệt stateless vs statefull ?
 
 ---
 
-#Class components vs Functional components ?
+#9 Class components vs Functional components ?
 
 ---
 
-#Stateful component vs Stateless component ?
+#10 Stateful component vs Stateless component ?
 
 ---
 
-#Webpack là gì ?
+#11 Webpack là gì ?
 
 ---

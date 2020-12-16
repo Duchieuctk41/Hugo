@@ -43,4 +43,8 @@ Lexical global: hàm trong hàm, hàm con có quyền truy cập đến phạm v
 
 Khái niệm closure bao đóng. làm cho scope trong không thể tiếp cận được public scope. Chỉ gọi function sẽ không thực hiện gì bởi nó trả về kết quả là tham chiếu tới function.
 
+### Bất đồng bộ là gì?
+Là xử lý công việc không theo tuần tự, trong thời gian chờ làm việc này thì nhảy qua việc khác.
+
+
 

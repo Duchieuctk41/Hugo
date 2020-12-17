@@ -75,9 +75,13 @@ Call stack là 1 cấu trúc dữ liệu, lưu các lệnh sẽ được thực 
 
 Callback hiểu đơn giản là bạn truyền một hàm B vào hàm A dưới dạng 1 tham số, một lúc nào đó thì hàm A sẽ gọi hàm B để chạy. nhược điểm tạo ra callback hell.
 
+![callback img](../../images/callback.png/)
+
 ##### Promise (ES6)
 
 Là "lời hứa" đại diện cho giá trị chưa tồn tại và giá trị đó sẽ được trả về vào một thời gian trong tương lai.
+
+![promise img](../../images/promise.png/)
 
 ##### Async / Await (ES7):
 
@@ -85,27 +89,15 @@ Async được dùng để khai báo một hàm bất đồng bộ. Các hàm b�
 
 Await làm cho JavaScript đợi cho đến khi promise trả về kết quả.
 
-#### #9 Các feature trong ES6 là gì ?
+#### #9 Các feature trong ES6 là gì ? map, filter, reduce (map, filter, reduce khác gì nhau) ?
 
 ---
 
-#### #10 Arrow function ?
+#### #10 Arrow function ? spread ? set ? destructring ?
 
----
+Arrow function: là tính năng viết hàm mới của ES6 giúp code ngắn gọn hơn.
 
-#### #11 spread ?
-
----
-
-#### #12 set ?
-
----
-
-#### #13 destructring ?
-
----
-
-#### #14 map, filter, reduce (map, filter, reduce khác gì nhau) ?
+Spread Operator : cho phép chuyển đổi một chuỗi thành nhiều argument (trong trường hợp gọi với hàm) hoặc thành nhiều phần tử (cho array).
 
 ---
 
@@ -122,6 +114,8 @@ Await làm cho JavaScript đợi cho đến khi promise trả về kết quả.
 ---
 
 #### #18 Từ khóa “this”, context ?
+
+"this" để đại diện cho một đối tượng (Object), là chính nó.
 
 ---
 

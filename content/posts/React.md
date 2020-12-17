@@ -73,7 +73,9 @@ Functional components: chỉ là hàm javascript nhận các tham số truyền 
 
 ---
 
-#10 Webpack là gì ?
+#### #10 Webpack là gì ?
+
+![webpack img](../../images/webpack.png/)
 
 ---
 

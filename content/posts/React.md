@@ -13,11 +13,11 @@ Khi tất cả các thay đổi đã được update trên DOM ảo, React sẽ 
 
 ---
 
-#2 LifeCycle ?
+#### #2 LifeCycle ?
 
 [Read more](https://viblo.asia/p/lifecycle-component-trong-reactjs-gGJ59jzxKX2)
 
-![alt text](../../resources/gen/images/lifecycle.png)
+![lifecycle img](https://images.viblo.asia/c3c37d71-9a8f-4250-b7a3-d01cb1cc525e.png)
 
 ---
 
@@ -29,7 +29,19 @@ Khi tất cả các thay đổi đã được update trên DOM ảo, React sẽ 
 
 ---
 
-#5 Hook ? UseEffect ?
+#### #5 Hook ? UseEffect ?
+
+Hooks : cho phép "kết nối" React state và lifecycle vào các components sử dụng hàm mà không cần dùng ES6 class.
+
+useEffect để tiếp cận vào các lifecycles, bằng với componentDidMount, componentDidUpdate , componentWillUnmount và chỉ chạy sau khi render.
+
+![useEffect](../../images/useEffect.png/)
+
+[counter] = bằng với= prevState.counter !== this.state.counter
+
+![useEffect](../../images/didUpdate.png/)
+
+[Read more hooks](https://ehkoo.com/bai-viet/react-hooks-la-gi)
 
 ---
 
@@ -45,18 +57,26 @@ State: Thuộc sở hữu của component. Được khởi tạo và có thể c
 
 ---
 
-#8 Phân biệt stateless vs statefull ?
+#### #8 Phân biệt stateless vs statefull ? Stateful component vs Stateless component ?
+
+stateful component: luôn là class component. Cập nhật state bằng hàm setState();
+
+stateless component: có thể dùng hàm hoặc lớp để tạo (nếu ko cần sử dụng lifecycle thì nên dùng functional components
 
 ---
 
-#9 Class components vs Functional components ?
+#### #9 Class components vs Functional components ?
+
+Class components: có thể có state. Có thể định nghĩa hàm khởi tạo.
+
+Functional components: chỉ là hàm javascript nhận các tham số truyền vào (props). Muốn xử lý state trong này phải dùng hooks.
 
 ---
 
-#10 Stateful component vs Stateless component ?
+#10 Webpack là gì ?
 
 ---
 
-#11 Webpack là gì ?
+#11
 
 ---

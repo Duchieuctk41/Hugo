@@ -16,9 +16,9 @@ date: 2020-12-15T03:18:36+07:00
 ---
 
 #### #4 Trạng thái của git ?
-![Status of git1](https://viblo.asia/uploads/9da95089-f428-4ceb-aa40-9c8587e9f6b2.png)
+![Status of git1](../../images/git1.png/)
 
-![Status of git2](https://images.viblo.asia/b32cbb6d-5a7b-48a3-9540-1f21e6349cdd.png)
+![Status of git2](../../images/git2.png/)
 
 ---
 

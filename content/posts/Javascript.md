@@ -56,9 +56,25 @@ Khái niệm closure bao đóng. làm cho scope trong không thể tiếp cận 
 
 #### #6 Bất đồng bộ là gì ? cơ chế xử lí của JS ?
 
-![async-await](https://lh3.googleusercontent.com/proxy/3xHQ7kF9h_jfoAnL17F4Lev6PxkDTGSP_cfucWWN3ZP_rY_qNqg-WfJA8TCoWE7TaYe3JjRkFls8VnA-2DXsSOBqOtp-)
+#### Đồng bộ:
 
-Là xử lý công việc không theo tuần tự, trong thời gian chờ làm việc này thì nhảy qua việc khác.
+Chương trình sẽ chạy lần lượt theo từng bước và chỉ khi nào thực hiện xong bước 1 mới chuyển sang bước 2, 3, 4…
+
+##### Mặt tốt: Chương trình sẽ chạy đúng thứ tự và có nguyên tắc nên sẽ không mắc các lỗi và tiến trình không cần thiết
+
+##### Mặt xấu: Chương trình chạy lần lượt nên sẽ không sinh ra trạng thái chờ không cần thiết, không tối ưu thời gian, đôi khi gây treo máy.
+
+---
+
+#### Bất đồng bộ:
+
+![async-await](../../images/async-await.png/)
+
+Chương trình có thể nhảy đi bỏ qua một bước nào đó. giả sử công việc 1,2 hoàn toàn độc lập. Nếu công việc thứ 2 xảy ra trước thì sẽ cho ra kết quả trước công việc 1. Không thuộc vào vị trí đặt hàm nào trước.
+
+##### Mặt tốt: Có thể xử lý nhiều công việc cùng một lúc mà không phải chờ đợi, tối ưu được thời gian, hiệu năng và tốc độ
+
+##### Mặt xấu: Nếu chương trình đòi hỏi nhiều quy trình tuần tự thì sẽ gây khó khăn trong quá trình phát triển.
 
 ---
 
@@ -68,7 +84,7 @@ Event Loop là cơ chế giúp Javascript có thể thực hiện nhiều thao t
 
 Event Loop có một công việc đơn giản: theo dõi Call Stack và Callback Queue (hàng đợi các hàm callback). Nếu Call Stack đang trống, nó sẽ lấy event đầu tiên từ trong hàng đợi ra và đẩy nó vào trong Call Stack - tức là thực thi nó.
 
-![event loop](https://topdev.vn/blog/wp-content/uploads/2018/12/event-loop-2.png)
+![event loop](../../images/event-loop.png/)
 
 JavaScript là ngôn ngữ lập trình single-threaded.
 Call stack là 1 cấu trúc dữ liệu, lưu các lệnh sẽ được thực thi. Vào sau thì ra trước.

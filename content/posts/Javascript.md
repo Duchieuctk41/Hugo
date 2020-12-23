@@ -5,6 +5,8 @@ date: 2020-12-15T03:18:36+07:00
 
 #### #1 Javascript là gì ?
 
+Javascript là ngôn ngữ lập trình thông dịch.
+
 ---
 
 #### #2 Các kiểu dữ liệu trong Javascript ?
@@ -54,6 +56,8 @@ Khái niệm closure bao đóng. làm cho scope trong không thể tiếp cận 
 
 #### #6 Bất đồng bộ là gì ? cơ chế xử lí của JS ?
 
+![async-await](https://lh3.googleusercontent.com/proxy/3xHQ7kF9h_jfoAnL17F4Lev6PxkDTGSP_cfucWWN3ZP_rY_qNqg-WfJA8TCoWE7TaYe3JjRkFls8VnA-2DXsSOBqOtp-)
+
 Là xử lý công việc không theo tuần tự, trong thời gian chờ làm việc này thì nhảy qua việc khác.
 
 ---
@@ -64,8 +68,12 @@ Event Loop là cơ chế giúp Javascript có thể thực hiện nhiều thao t
 
 Event Loop có một công việc đơn giản: theo dõi Call Stack và Callback Queue (hàng đợi các hàm callback). Nếu Call Stack đang trống, nó sẽ lấy event đầu tiên từ trong hàng đợi ra và đẩy nó vào trong Call Stack - tức là thực thi nó.
 
+![event loop](https://topdev.vn/blog/wp-content/uploads/2018/12/event-loop-2.png)
+
 JavaScript là ngôn ngữ lập trình single-threaded.
 Call stack là 1 cấu trúc dữ liệu, lưu các lệnh sẽ được thực thi. Vào sau thì ra trước.
+
+[Read more](https://viblo.asia/p/cau-chuyen-xu-ly-bat-dong-bo-trong-javascript-phan-1-YWOZrQAEKQ0)
 
 ---
 
@@ -98,10 +106,6 @@ Await làm cho JavaScript đợi cho đến khi promise trả về kết quả.
 Arrow function: là tính năng viết hàm mới của ES6 giúp code ngắn gọn hơn.
 
 Spread Operator : cho phép chuyển đổi một chuỗi thành nhiều argument (trong trường hợp gọi với hàm) hoặc thành nhiều phần tử (cho array).
-
----
-
-#### #15 Promise ?
 
 ---
 
